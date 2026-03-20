@@ -1,0 +1,17 @@
+# Create a class
+class Book:
+    def __init__(self, title, pages):
+        self.title = title
+        self.pages = pages
+
+    def describe(self):
+        print("Book:", self.title)
+        print("Pages:", self.pages)
+
+# Create objects
+book1 = Book("Python Basics", 150)
+book2 = Book("Data Science Guide", 300)
+
+# Use objects
+book1.describe()
+book2.describe()
