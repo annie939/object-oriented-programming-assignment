@@ -1,0 +1,13 @@
+class Account:
+    def __init__(self, owner):
+        self.owner = owner
+        print(owner, "account created")
+
+    def __del__(self):
+        print(self.owner, "account deleted")
+
+# Create object
+acc1 = Account("Alice")
+
+# Delete object
+del acc1
